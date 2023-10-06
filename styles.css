@@ -506,10 +506,38 @@ nav {
   margin-inline: auto;
   margin-top: 1rem;
 }
+.contact__details {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 4rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact__detail {
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: var(--white);
+}
+
+.contact__detail h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__detail p {
+  font-size: 1rem;
+  margin: 0;
+}
+
 
 .footer {
   background-color: var(--secondary-color-dark);
 }
+
+
 
 .footer__container {
   display: grid;
